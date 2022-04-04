@@ -5,8 +5,8 @@ using namespace std;
 
 int main(void) {
 	Reverse re;
-	int num = 1234567;
-	string word = "trenty";
+	int num = 1250;
+	string word = "abcdef";
 
 	cout << "Number:" << num << endl << "Reversed:" << re.reverseDigit(num) << endl;
 

@@ -8,6 +8,9 @@ Reverse::Reverse() {}
 
 int Reverse::reverseDigit(int value) {
 
+	if (value <= -1)
+		return 0;
+
 	if (value < 10 && value >= 0)
 		return value;
 
